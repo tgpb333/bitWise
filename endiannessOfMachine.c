@@ -1,7 +1,8 @@
 #include<stdio.h>
 
 void getEndianness(){
-  unsigned int i = 0x12345678;
+  //unsigned int i = 0x12345678;
+  unsigned int i = 1;
   printf("%x\n", i);
   unsigned char *c = (char*)&i;
   printf("%x\n", *c);
